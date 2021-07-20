@@ -1,0 +1,1 @@
+<iframe name="planner" class="planner" style="margin: 0px auto; height: 436px;" width="98%" frameborder="0" height="436" src="https://www.caravan24.de/tools/?6c343a3833306f6a65307036306534306436&amp;year=2019" scrolling="no"></iframe>

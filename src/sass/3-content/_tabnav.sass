@@ -1,0 +1,32 @@
+.nav .nav-item .nav-link 
+  display: block
+  font-size: 1.25rem
+
+  i
+    margin-right: 8px
+    font-size: 1.25em
+
+// .nav .nav-item .nav-link 
+//   display: inline-flex
+
+.nav-pills .nav-link.active, .nav-pills .show >.nav-link
+  color: #fff
+  background-color: $primary
+
+
+@include media-breakpoint-down(xs)
+  .nav 
+
+    &.nav-pills
+      .nav-item .nav-link 
+        display: block
+        font-size: 1.25rem
+        text-align: left
+
+    &.nav-tabs
+      .nav-item 
+        list-style: none!important
+        flex: 1 100%!important
+        width: 100%
+        .nav-link
+          text-align: left!important

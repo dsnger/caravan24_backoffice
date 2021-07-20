@@ -1,0 +1,14 @@
+
+@include media-breakpoint-up(md)
+  
+  .row.gutter-large
+    margin-right: -$grid-gutter-width!important
+    margin-left: -$grid-gutter-width!important
+
+
+    & > 
+      .col, div[class^='col-']
+        position: relative
+        width: 100%
+        padding-right: $grid-gutter-width!important
+        padding-left: $grid-gutter-width!important

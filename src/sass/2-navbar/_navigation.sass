@@ -1,0 +1,93 @@
+
+
+.main-menu
+  
+  .navigation 
+    & > li ul li > a.menu-item
+      padding: 8px 18px 8px 26px
+      cursor: pointer
+
+      i
+        margin-right: 8px
+
+    & > li ul li:hover,
+    & > li ul .active
+      background-color: $gray-100!important
+
+      & > a
+        background-color: $gray-100!important
+
+
+    & > li ul .active
+      & > a
+        //color: $dark
+        font-weight: 700
+        background-color: $gray-100!important
+
+
+
+    .menu-content > li:last-child > a
+      margin-bottom: 1rem
+
+
+
+
+  &.menu-light  
+    .navigation
+      & > li > a
+        transition: all .05s ease
+        color: $gray-800
+        
+      & > li > ul
+        background: #f5f5f5
+        border-bottom: 1px solid #ccc  
+      & > li.open > a,
+      & > li:hover > a
+        background: $primary
+        color: white
+        border-right: 4px solid $c24-secondary
+
+
+      & > li ul li>a.menu-item
+        color: $gray-800
+
+
+      li.nav-item--disabled > a
+        cursor: no-drop
+        pointer-events: none
+        color: $gray-200
+
+      //MENU DISABLED
+      & > li.nav-item--disabled.open > a,
+      & > li.nav-item--disabled:hover > a
+        background: $gray-100
+        //color: $white
+        border-right: $gray-400
+      
+      //SUBMENU DISABLED
+      & > li.nav-item--disabled
+
+        ul li a
+          color: $gray-200
+          cursor: no-drop
+          // cursor: not-allowed
+          pointer-events: none
+          
+        ul li.hover a
+          transform: none
+        
+        ul li:hover a,
+        ul li.hover a,
+        ul li.hover
+          background: transparent!important
+          
+         
+
+
+
+
+
+.menu-popout
+  i
+    margin-right: 8px
+
