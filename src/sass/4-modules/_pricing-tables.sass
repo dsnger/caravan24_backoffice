@@ -1,0 +1,264 @@
+
+.c24-pricing-tables
+
+  .container
+    max-width: 1280px
+
+  .card-body
+    display: flex
+    flex-wrap: wrap
+
+  .c24-pricing-tabs
+    justify-content: center
+    background-color: #f5f5f5
+    padding: .4rem .5rem
+    border-radius: 100px
+    box-shadow: inset 2px 2px 15px rgba($black, .115)
+
+    .nav-item
+      &:not(:first-child)
+        margin-left: .5rem
+
+    .nav-link
+      padding: .75rem 3.5rem
+      text-align: center
+      transition: all .3s ease
+     
+      &:hover:not(.active)
+        background-color: rgba($white, .5)
+        border-radius: 50px
+        color: $c24-primary
+
+      .pricing-tabs__tabtitle,
+      .pricing-tabs__tabsubtitle
+        display: block
+
+      .pricing-tabs__tabtitle
+        font-weight: 600
+        line-height: 1.2
+        font-size: 1.5rem
+        white-space: nowrap
+
+      .pricing-tabs__tabsubtitle
+        font-size: 80%
+        font-weight: normal
+      
+    .nav-link.active
+      border-radius: 50px
+      box-shadow: 2px 2px 4px rgba($black, .115)
+
+   
+
+  .c24-pricing-tables__items
+
+    //item
+        
+    .c24-pricing-table__item
+      border: 3px solid rgba(#6b6f82, .5)
+      border-radius: 1.5rem
+      transition: all 0.2s ease
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1)
+      color: $black
+      margin-bottom: .5rem
+
+      .card-body
+        display: flex
+        flex-direction: column
+
+      hr
+        margin: 1.25rem 0
+        border-color: rgba($c24-secondary, .25)
+        border-width: 2px
+
+      .card-title
+        margin: 0.5rem 0
+        // letter-spacing: .1rem
+        font-size: 2.5rem
+        font-weight: bold
+        color: $c24-primary
+        opacity: 1
+        display: block
+        width: 100%
+        text-align: center
+     
+      .card-price
+        font-size: 3rem
+        font-weight: 600
+        display: block
+        width: 100%
+        margin: .25rem 0 .25rem 0
+        text-align: center
+
+        .currency
+          font-size: 2rem
+          margin-left: 3px
+        .period
+          font-size: 1.25rem
+          font-weight: bold
+
+      .card-excerpt
+        color: $black
+        font-size: 1.125rem
+        line-height: 1.6
+        text-align: center
+
+      ul.card-features 
+        padding-left: 2rem
+        margin: .5rem 0 0 
+        li
+          list-style: none
+          margin-bottom: .45rem
+          font-size: 1.1rem
+          color: $black
+          position: relative
+       
+        li.check::before,
+        li.cross::before
+          content: ''
+          position: absolute
+          top: 2px
+          left: 0
+          display: flex
+          align-items: center
+          margin-left: -2em
+          margin-right: 0
+          color: $c24-primary
+          font-weight: bold
+          width: 1.5em
+          height: 1.5em
+          background-color: transparent
+          background-repeat: no-repeat
+          background-size: contain
+
+        li.check::before
+          //content: '\f17b'
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' style='width:24px;height:24px' viewBox='0 0 24 24'%3E%3Cpath fill='%233b7859' d='M9,20.42L2.79,14.21L5.62,11.38L9,14.77L18.88,4.88L21.71,7.71L9,20.42Z' /%3E%3C/svg%3E")
+        
+        li.cross::before
+          //content: '\f342'
+          color: $warning
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' style='width:24px;height:24px' viewBox='0 0 24 24'%3E%3Cpath fill='red' d='M20 6.91L17.09 4L12 9.09L6.91 4L4 6.91L9.09 12L4 17.09L6.91 20L12 14.91L17.09 20L20 17.09L14.91 12L20 6.91Z' /%3E%3C/svg%3E")
+
+
+      .text-muted
+        opacity: 0.7
+
+      .check-icon-active
+        display: none
+      .check-icon,
+      .check-icon-active
+        svg 
+          transition: all .2s ease
+          width: 32px!important
+          height: 32px!important
+          fill: $c24-secondary
+
+      .feature-tooltip
+        display: inline-block
+        svg 
+          fill: rgba(#6b6f82, .75)
+          width: 18px!important
+          height: 28px!important
+          
+      .card-highlight-title
+        background: $c24-primary
+        border-radius: 50px
+        color: $white
+        font-weight: 600
+        font-size: 1rem
+        text-align: center
+        display: none
+        text-shadow: none
+        padding: .4em 3em
+        position: absolute
+        top: 0
+        left: 50%
+        width: 70%
+        transform: translate(-50%, -55%)
+
+
+    .btn.c24-pricing-table__morelink
+      margin: 1rem 0 0
+      width: auto
+      font-size: 1rem
+      border-radius: 5rem
+      font-weight: 600
+      padding: .5rem 2rem
+      transition: all 0.2s
+      background: transparent
+      border: 2px solid $c24-primary
+      color: $c24-primary
+      max-width: 400px
+      &:hover,
+      &:focus
+        background: $c24-primary
+        border: 2px solid $c24-primary
+        color: $white
+
+  
+  .c24-pricing-table__item.highlight
+
+    border-color: $c24-secondary
+    cursor: pointer
+    margin-top: -.25rem
+    margin-bottom: .75rem
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3)!important
+
+    .card-highlight-title
+      display: block
+      
+    .check-icon
+      display: block
+      svg 
+        fill: $c24-primary
+
+
+
+
+  /* Effects on Card
+
+
+  input.c24-pricing-table__toggle
+    position: absolute
+    left: -9999px
+
+
+    @media (min-width: 992px)
+      
+      & + label:hover .c24-pricing-table__item,
+ 
+        border-color: $c24-secondary
+        cursor: pointer
+        margin-top: -.25rem
+        margin-bottom: .75rem
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3)!important
+
+        .btn
+          opacity: 1
+
+        .check-icon
+          display: block
+          svg 
+            fill: $c24-primary
+
+
+    &:checked + label
+      .c24-pricing-table__item
+        border-color: $c24-primary
+        border-width: 3px
+        cursor: pointer
+        margin-top: -.25rem
+        margin-bottom: .75rem
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3)!important
+
+        .check-icon
+          display: none
+        .check-icon-active
+          display: block
+          svg 
+            fill: $c24-primary
+
+  
+
+
+   

@@ -48,66 +48,69 @@ include('template_parts/tmpl_header.php');
 
             </div>
             <div class="content-body">
-                <section id="tabs">
+                <section id="pricingtables" class="c24-pricing-tables">
                     <div class="card">
                         <div class="card-content">
                             <div class="card-body">
 
-                                <h4 class="mb-2">Paket-Laufzeit wählen:</h4>
-                                <ul class="product-tabs nav nav-tabs nav-underline no-hover-bg">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" id="belegung" data-toggle="tab" aria-controls="desc" href="#tab_belegung" aria-expanded="true">Belegung</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="calcode" data-toggle="tab" aria-controls="ratings" href="#tab_calcode" aria-expanded="false">Kalender Code</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="preview" data-toggle="tab" aria-controls="comment" href="#tab_preview" aria-expanded="false">Vorschau</a>
-                                    </li>
-                                </ul>
+                                <div class="container">
+                                    <div class="row">
 
-                                <div class="product-content tab-content px-1 pt-1">
-                                    <div role="tabpanel" class="tab-pane active" id="tab_belegung" aria-expanded="true" aria-labelledby="belegung">
-                                        <h2 class="my-1">Belegung</h2>
-                                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-                                        <br>
-                                        <h4>Lorem ipsum labore et dolore:</h4>
-                                        <ul>
-                                            <li>sanctus sea sed takimata ut vero voluptua</li>
-                                            <li>sanctus sea sed takimata ut vero voluptua</li>
-                                            <li>sanctus sea sed takimata ut vero voluptua</li>
-                                            <li>sanctus sea sed takimata ut vero voluptua</li>
-                                            <li>sanctus sea sed takimata ut vero voluptua</li>
-                                        </ul>
+                                        <div class="col">
+                                            <h4 class="mb-2">Paket-Laufzeit wählen:</h4>
+                                        </div>
+
                                     </div>
+                                    <div class="row justify-content-center">
 
-                                    <div role="tabpanel" class="tab-pane" id="tab_calcode" aria-expanded="true" aria-labelledby="calcode">
-                                        <h2 class="my-1">Kalender-Code</h2>
-                                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-                                        <br>
-                                        <h4>Lorem ipsum labore et dolore:</h4>
-                                        <ul>
-                                            <li>sanctus sea sed takimata ut vero voluptua</li>
-                                            <li>sanctus sea sed takimata ut vero voluptua</li>
-                                            <li>sanctus sea sed takimata ut vero voluptua</li>
-                                            <li>sanctus sea sed takimata ut vero voluptua</li>
-                                            <li>sanctus sea sed takimata ut vero voluptua</li>
-                                        </ul>
+                                        <div class="col-auto">
+
+                                            <ul class="nav nav-pills c24-pricing-tabs">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="preisgruppe1" data-toggle="tab" aria-controls="desc" href="#tab_preisgruppe1" aria-expanded="true">
+
+                                                        <span class="pricing-tabs__tabtitle">4 Wochen</span>
+                                                        <span class="pricing-tabs__tabsubtitle">28 Tage Laufzeit</span>
+
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="preisgruppe2" data-toggle="tab" aria-controls="ratings" href="#tab_preisgruppe2" aria-expanded="false">
+
+                                                        <span class="pricing-tabs__tabtitle">6 Wochen</span>
+                                                        <span class="pricing-tabs__tabsubtitle">42 Tage Laufzeit</span>
+
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
                                     </div>
+                                </div>
 
+                                <div class="container">
+                                    <div class="row">
 
-                                    <div role="tabpanel" class="tab-pane" id="tab_preview" aria-expanded="true" aria-labelledby="preview">
-                                        <h2 class="my-1">Vorschau</h2>
-                                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-                                        <br>
-                                        <h4>Lorem ipsum labore et dolore:</h4>
-                                        <ul>
-                                            <li>sanctus sea sed takimata ut vero voluptua</li>
-                                            <li>sanctus sea sed takimata ut vero voluptua</li>
-                                            <li>sanctus sea sed takimata ut vero voluptua</li>
-                                            <li>sanctus sea sed takimata ut vero voluptua</li>
-                                            <li>sanctus sea sed takimata ut vero voluptua</li>
-                                        </ul>
+                                        <div class="col">
+
+                                            <div class="tab-content px-1 pt-1 c24-pricing-content">
+
+                                                <!-- tabcontent 1 -->
+                                                <div role="tabpanel" class="tab-pane active" id="tab_preisgruppe1" aria-expanded="true" aria-labelledby="preisgruppe1">
+
+                                                    <?php include('template_parts/tmpl_preistafeln.php') ?>
+
+                                                </div>
+
+                                                <!-- tabcontent 2 -->
+                                                <div role="tabpanel" class="tab-pane" id="tab_preisgruppe2" aria-expanded="true" aria-labelledby="preisgruppe2">
+
+                                                    <?php include('template_parts/tmpl_preistafeln_2.php') ?>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 

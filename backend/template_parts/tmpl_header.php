@@ -33,15 +33,7 @@ require_once('functions/func_layout-elements.php');
     <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/forms/icheck/icheck.css">
     <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/forms/icheck/custom.css">
 
-
-    <!-- Theme CSS-->
-    <!-- <link rel="stylesheet" type="text/css" href="../app-assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../app-assets/css/bootstrap-extended.min.css">
-    <link rel="stylesheet" type="text/css" href="../app-assets/css/colors.min.css">
-    <link rel="stylesheet" type="text/css" href="../app-assets/css/components.min.css"> -->
-
     <!-- page CSS-->
-    <!-- <link rel="stylesheet" type="text/css" href="../app-assets/css/core/menu/menu-types/vertical-menu.min.css"> -->
     <link rel="stylesheet" type="text/css" href="../app-assets/css/core/colors/palette-gradient.css">
     <link rel="stylesheet" type="text/css" href="../app-assets/css/pages/gallery.css">
     <link rel="stylesheet" type="text/css" href="../app-assets/css-rtl/core/colors/palette-callout.css">
