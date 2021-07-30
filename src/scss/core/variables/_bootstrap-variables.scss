@@ -96,9 +96,9 @@ $cyan: #666ee8; //$primary
 $light: $gray-200; // $gray-100
 $dark: $gray-800; // $gray-dakr
 
-$wp-primary: #0d64ac;
+$c24-primary: #0d64ac;
 $c24-secondary: #6699cc;
-$blue: $wp-primary;
+$blue: $c24-primary;
 $red: #ff4961;
 $orange: #ff9149;
 $green: #28d094;
@@ -125,7 +125,7 @@ $colors: map-merge(
 	$colors
 );
 
-$primary: $wp-primary;
+$primary: $c24-primary;
 $secondary: $c24-secondary;
 $success: $green;
 $info: $c24-secondary;

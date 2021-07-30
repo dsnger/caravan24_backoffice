@@ -38612,6 +38612,15 @@ body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .footer {
   display: none;
 }
 
+.header-navbar .navbar-container ul.nav li a.menu-toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .main-menu .navigation > li ul li > a.menu-item {
   padding: 8px 18px 8px 26px;
   cursor: pointer;
@@ -38639,6 +38648,15 @@ body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .footer {
 
 .main-menu .navigation .menu-content > li:last-child > a {
   margin-bottom: 1rem;
+}
+
+.main-menu .navigation li .badge-primary {
+  background-color: #3b7859;
+}
+
+.main-menu .navigation li:hover .badge-primary {
+  background-color: #fff;
+  color: #3b7859;
 }
 
 .main-menu.menu-light .navigation > li > a {
@@ -38720,6 +38738,18 @@ body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .footer {
   background-color: #3b7859;
 }
 
+.nav.nav-tabs.nav-underline .nav-item a.nav-link {
+  color: #3b7859;
+}
+
+.nav.nav-tabs.nav-underline .nav-item a.nav-link.active {
+  font-weight: 600;
+}
+
+.nav.nav-tabs.nav-underline .nav-item a.nav-link:before {
+  background-color: #3b7859;
+}
+
 @media (max-width: 575.98px) {
   .nav.nav-pills .nav-item .nav-link {
     display: block;
@@ -38798,8 +38828,8 @@ form .form-body .nav .nav-item a.nav-link {
 }
 
 .card-header .card-title {
-  color: #3b7859;
-  font-weight: semibold;
+  color: #464855;
+  font-weight: 600;
   font-size: 1.2rem;
 }
 
@@ -38885,5 +38915,13 @@ form .form-body .nav .nav-item a.nav-link {
   border-color: !important;
   background-color: #f6f6f6 !important;
   color: #464855 !important;
+}
+
+html body a {
+  color: #3b7859;
+}
+
+.badge-secondary {
+  background-color: #f8a913;
 }
 /*# sourceMappingURL=style.min.css.map */

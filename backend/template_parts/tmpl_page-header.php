@@ -20,11 +20,11 @@
             <div class="navbar-container content">
                 <div class="collapse navbar-collapse" id="navbar-mobile">
                     <ul class="nav navbar-nav mr-auto float-left">
-                        <li class="nav-item d-none d-md-block"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu"></i></a></li>
+                        <li class="nav-item d-none d-md-block"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu"></i>Menu</a></li>
                     </ul>
                     <ul class="nav navbar-nav float-right">
                         <li class="dropdown dropdown-user nav-item my-auto"><a class="dropdown-toggle nav-link dropdown-user-link round" href="#" data-toggle="dropdown"><span class="mr-1 text-white text-bold-500"><i class="la la-support"></i>Hilfe </span></a></li>
-                        <li class="dropdown dropdown-notification nav-item"><a class="nav-link nav-link-label round" href="#" ><i class="ficon la la-envelope"></i><span class="badge badge-pill badge-success badge-up">5</span></a></li>
+                        <li class="dropdown dropdown-notification nav-item"><a class="nav-link nav-link-label round" href="#" ><i class="ficon la la-envelope"></i><span class="badge badge-pill badge-secondary badge-up">5</span></a></li>
                         <li class="dropdown dropdown-user nav-item my-auto"><a class="dropdown-toggle nav-link dropdown-user-link round" href="#" data-toggle="dropdown"><i class="la la-user"></i><span class="mr-1 text-bold-400">Max Mustermann</span></a>
                             <div class="dropdown-menu dropdown-menu-right">
                                 <a class="dropdown-item" href="#"><i class="ft-user"></i> Stammdaten</a>

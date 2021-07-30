@@ -154,7 +154,7 @@ include('template_parts/tmpl_header.php');
                     </div>
                 </section>
 
-                <section id="round-buttons">
+                <section id="accordion">
                     <div class="row">
                         <div class="col-12">
                             <div class="card">
@@ -230,9 +230,6 @@ include('template_parts/tmpl_header.php');
                     </div>
                 </section>
 
-
-
-
                 <section id="tabs">
                     <div class="card">
                         <div class="card-content">
@@ -297,79 +294,78 @@ include('template_parts/tmpl_header.php');
                             </div>
                         </div>
                     </div>
-            </div>
-            </section>
 
-            <section id="tab-pills">
-                <div class="card">
-                    <div class="card-content">
-                        <div class="card-body ">
-                            <ul class="nav nav-pills nav-fill">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="belegung2" data-toggle="tab" aria-controls="desc" href="#tab_belegung2" aria-expanded="true"><i class="la la-calendar"></i>Belegung</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="calcode2" data-toggle="tab" aria-controls="ratings" href="#tab_calcode2" aria-expanded="false"><i class="la la-calendar"></i>Kalender Code</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="preview2" data-toggle="tab" aria-controls="comment" href="#tab_preview2" aria-expanded="false"><i class="la la-eye"></i>Vorschau</a>
-                                </li>
-                            </ul>
+                </section>
 
-                            <div class="product-content tab-content px-1 pt-1">
-                                <div role="tabpanel" class="tab-pane active" id="tab_belegung2" aria-expanded="true" aria-labelledby="belegung2">
-                                    <h2 class="my-1"></i>Belegung</h2>
-                                    <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-                                    <br>
-                                    <h4>Lorem ipsum labore et dolore:</h4>
-                                    <ul>
-                                        <li>sanctus sea sed takimata ut vero voluptua</li>
-                                        <li>sanctus sea sed takimata ut vero voluptua</li>
-                                        <li>sanctus sea sed takimata ut vero voluptua</li>
-                                        <li>sanctus sea sed takimata ut vero voluptua</li>
-                                        <li>sanctus sea sed takimata ut vero voluptua</li>
-                                    </ul>
+                <section id="tab-pills">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="card-body ">
+                                <ul class="nav nav-pills nav-fill">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="belegung2" data-toggle="tab" aria-controls="desc" href="#tab_belegung2" aria-expanded="true"><i class="la la-calendar"></i>Belegung</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="calcode2" data-toggle="tab" aria-controls="ratings" href="#tab_calcode2" aria-expanded="false"><i class="la la-calendar"></i>Kalender Code</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="preview2" data-toggle="tab" aria-controls="comment" href="#tab_preview2" aria-expanded="false"><i class="la la-eye"></i>Vorschau</a>
+                                    </li>
+                                </ul>
+
+                                <div class="product-content tab-content px-1 pt-1">
+                                    <div role="tabpanel" class="tab-pane active" id="tab_belegung2" aria-expanded="true" aria-labelledby="belegung2">
+                                        <h2 class="my-1"></i>Belegung</h2>
+                                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                                        <br>
+                                        <h4>Lorem ipsum labore et dolore:</h4>
+                                        <ul>
+                                            <li>sanctus sea sed takimata ut vero voluptua</li>
+                                            <li>sanctus sea sed takimata ut vero voluptua</li>
+                                            <li>sanctus sea sed takimata ut vero voluptua</li>
+                                            <li>sanctus sea sed takimata ut vero voluptua</li>
+                                            <li>sanctus sea sed takimata ut vero voluptua</li>
+                                        </ul>
+                                    </div>
+
+                                    <div role="tabpanel" class="tab-pane" id="tab_calcode2" aria-expanded="true" aria-labelledby="calcode2">
+                                        <h2 class="my-1">Kalender-Code</h2>
+                                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                                        <br>
+                                        <h4>Lorem ipsum labore et dolore:</h4>
+                                        <ul>
+                                            <li>sanctus sea sed takimata ut vero voluptua</li>
+                                            <li>sanctus sea sed takimata ut vero voluptua</li>
+                                            <li>sanctus sea sed takimata ut vero voluptua</li>
+                                            <li>sanctus sea sed takimata ut vero voluptua</li>
+                                            <li>sanctus sea sed takimata ut vero voluptua</li>
+                                        </ul>
+                                    </div>
+
+
+                                    <div role="tabpanel" class="tab-pane" id="tab_preview2" aria-expanded="true" aria-labelledby="preview2">
+                                        <h2 class="my-1">Vorschau</h2>
+                                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                                        <br>
+                                        <h4>Lorem ipsum labore et dolore:</h4>
+                                        <ul>
+                                            <li>sanctus sea sed takimata ut vero voluptua</li>
+                                            <li>sanctus sea sed takimata ut vero voluptua</li>
+                                            <li>sanctus sea sed takimata ut vero voluptua</li>
+                                            <li>sanctus sea sed takimata ut vero voluptua</li>
+                                            <li>sanctus sea sed takimata ut vero voluptua</li>
+                                        </ul>
+                                    </div>
                                 </div>
 
-                                <div role="tabpanel" class="tab-pane" id="tab_calcode2" aria-expanded="true" aria-labelledby="calcode2">
-                                    <h2 class="my-1">Kalender-Code</h2>
-                                    <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-                                    <br>
-                                    <h4>Lorem ipsum labore et dolore:</h4>
-                                    <ul>
-                                        <li>sanctus sea sed takimata ut vero voluptua</li>
-                                        <li>sanctus sea sed takimata ut vero voluptua</li>
-                                        <li>sanctus sea sed takimata ut vero voluptua</li>
-                                        <li>sanctus sea sed takimata ut vero voluptua</li>
-                                        <li>sanctus sea sed takimata ut vero voluptua</li>
-                                    </ul>
-                                </div>
-
-
-                                <div role="tabpanel" class="tab-pane" id="tab_preview2" aria-expanded="true" aria-labelledby="preview2">
-                                    <h2 class="my-1">Vorschau</h2>
-                                    <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-                                    <br>
-                                    <h4>Lorem ipsum labore et dolore:</h4>
-                                    <ul>
-                                        <li>sanctus sea sed takimata ut vero voluptua</li>
-                                        <li>sanctus sea sed takimata ut vero voluptua</li>
-                                        <li>sanctus sea sed takimata ut vero voluptua</li>
-                                        <li>sanctus sea sed takimata ut vero voluptua</li>
-                                        <li>sanctus sea sed takimata ut vero voluptua</li>
-                                    </ul>
-                                </div>
                             </div>
-
                         </div>
                     </div>
-                </div>
+                </section>
+
+            </div>
+
         </div>
-        </section>
-
-
-
-    </div>
     </div>
     </div>
     <!-- END: Content-->
