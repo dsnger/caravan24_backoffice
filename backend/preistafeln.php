@@ -86,14 +86,12 @@ include('template_parts/tmpl_header.php');
                                             </ul>
                                         </div>
                                     </div>
-                                </div>
-
-                                <div class="container">
+                               
+                                
                                     <div class="row">
-
                                         <div class="col">
 
-                                            <div class="tab-content px-1 pt-1 c24-pricing-content">
+                                            <div class="tab-content c24-pricing-content">
 
                                                 <!-- tabcontent 1 -->
                                                 <div role="tabpanel" class="tab-pane active" id="tab_preisgruppe1" aria-expanded="true" aria-labelledby="preisgruppe1">
@@ -112,6 +110,13 @@ include('template_parts/tmpl_header.php');
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div class="row">
+                                        <div class="col text-center">
+                                            <input type="submit" class="btn round btn-min-width mr-1 mb-1 c24-pricing-table__submit" value="Auswahl buchen">
+                                        </div>
+                                    </div>
+
                                 </div>
 
                             </div>

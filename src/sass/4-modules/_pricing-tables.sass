@@ -1,6 +1,13 @@
 
 .c24-pricing-tables
 
+
+
+
+  .card-body > .container
+    padding-left: 0
+    padding-right: 0
+
   .container
     max-width: 1280px
 
@@ -14,13 +21,17 @@
     padding: .4rem .5rem
     border-radius: 100px
     box-shadow: inset 2px 2px 15px rgba($black, .115)
+    
+    @media (min-width: 1200px)
+      padding: .4rem .5rem
+      border-radius: 100px
 
     .nav-item
       &:not(:first-child)
         margin-left: .5rem
 
     .nav-link
-      padding: .75rem 3.5rem
+      padding: .5rem 1.5rem
       text-align: center
       transition: all .3s ease
      
@@ -29,19 +40,30 @@
         border-radius: 50px
         color: $c24-primary
 
+      @media (min-width: 1200px)
+        padding: .75rem 2.5rem
+
+
+
       .pricing-tabs__tabtitle,
       .pricing-tabs__tabsubtitle
         display: block
+        text-align: center
 
       .pricing-tabs__tabtitle
         font-weight: 600
         line-height: 1.2
-        font-size: 1.5rem
+        font-size: 1.125rem
         white-space: nowrap
+        @media (min-width: 1200px)
+          font-size: 1.375rem
+
 
       .pricing-tabs__tabsubtitle
-        font-size: 80%
+        font-size: 50%
         font-weight: normal
+        @media (min-width: 992px)
+          font-size: 80%
       
     .nav-link.active
       border-radius: 50px
@@ -52,7 +74,15 @@
   .c24-pricing-tables__items
 
     //item
-        
+
+    .row > :not(:first-child)
+      &>.c24-pricing-table__itemwrap
+
+        margin-top: 4rem
+        @media (min-width: 992px)
+          margin-top: 0rem
+       
+
     .c24-pricing-table__item
       border: 3px solid rgba(#6b6f82, .5)
       border-radius: 1.5rem
@@ -64,6 +94,10 @@
       .card-body
         display: flex
         flex-direction: column
+        padding: 1rem
+        @media (min-width: 1200px)
+          padding: 1.5rem
+
 
       hr
         margin: 1.25rem 0
@@ -73,13 +107,16 @@
       .card-title
         margin: 0.5rem 0
         // letter-spacing: .1rem
-        font-size: 2.5rem
+        font-size: 1.75rem
         font-weight: bold
         color: $c24-primary
         opacity: 1
         display: block
         width: 100%
         text-align: center
+        @media (min-width: 1200px)
+          font-size: 2.5rem
+          font-weight: bold
      
       .card-price
         font-size: 3rem
@@ -98,9 +135,11 @@
 
       .card-excerpt
         color: $black
-        font-size: 1.125rem
+        font-size: 1rem
         line-height: 1.6
         text-align: center
+        @media (min-width: 1200px)
+          font-size: 1.125rem
 
       ul.card-features 
         padding-left: 2rem
@@ -108,9 +147,11 @@
         li
           list-style: none
           margin-bottom: .45rem
-          font-size: 1.1rem
+          font-size: .9rem
           color: $black
           position: relative
+          @media (min-width: 1200px)
+            font-size: 1.1rem
        
         li.check::before,
         li.cross::before
@@ -129,6 +170,9 @@
           background-color: transparent
           background-repeat: no-repeat
           background-size: contain
+          @media (min-width: 1200px)
+            width: 1.5em
+            height: 1.5em
 
         li.check::before
           //content: '\f17b'
@@ -165,44 +209,68 @@
         border-radius: 50px
         color: $white
         font-weight: 600
-        font-size: 1rem
+        font-size: .75rem
         text-align: center
         display: none
         text-shadow: none
-        padding: .4em 3em
+        padding: .4em 1em
         position: absolute
         top: 0
         left: 50%
         width: 70%
         transform: translate(-50%, -55%)
+        @media (min-width: 1200px)
+          padding: .4em 2em
 
 
-    .btn.c24-pricing-table__morelink
-      margin: 1rem 0 0
-      width: auto
-      font-size: 1rem
-      border-radius: 5rem
-      font-weight: 600
-      padding: .5rem 2rem
-      transition: all 0.2s
-      background: transparent
+  .btn.c24-pricing-table__morelink
+    margin: 1rem 0 0
+    width: auto
+    font-size: 1rem
+    font-weight: 600
+    padding: .5rem 2rem
+    transition: all 0.2s
+    background: transparent
+    border: 2px solid $c24-primary
+    color: $c24-primary
+    max-width: 400px
+    &:hover,
+    &:focus
+      background: $c24-primary
       border: 2px solid $c24-primary
-      color: $c24-primary
-      max-width: 400px
-      &:hover,
-      &:focus
-        background: $c24-primary
-        border: 2px solid $c24-primary
-        color: $white
+      color: $white
+
+  
+  .btn.c24-pricing-table__submit
+    margin: 1rem 0 0
+    width: auto
+    font-size: 1.25rem
+    font-weight: 600
+    padding: .5rem 2rem
+    transition: all 0.2s
+    background: $c24-primary
+    border: 2px solid $c24-primary
+    color: $white
+    max-width: 400px
+    &:hover,
+    &:active,
+    &:focus
+      background: $c24-secondary
+      border: 2px solid $c24-secondary
+      color: $white
+      transform: scale(1.05)
 
   
   .c24-pricing-table__item.highlight
 
     border-color: $c24-secondary
     cursor: pointer
-    margin-top: -.25rem
-    margin-bottom: .75rem
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3)!important
+    margin-bottom: .75rem
+
+    @media (min-width: 992px)
+      margin-top: -.25rem
+     
 
     .card-highlight-title
       display: block
