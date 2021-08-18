@@ -57,7 +57,7 @@ include('template_parts/tmpl_header.php');
                                     <div class="row">
 
                                         <div class="col">
-                                            <h4 class="mb-2">Paket-Laufzeit wählen:</h4>
+                                            <h3 class="mb-2">Paket-Laufzeit wählen:</h3>
                                         </div>
 
                                     </div>

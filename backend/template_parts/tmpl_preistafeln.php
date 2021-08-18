@@ -5,7 +5,7 @@
 
         <!-- price item -->
         <div class="c24-pricing-table__itemwrap">
-          <input id="pricing_toggle_1" name="pricing_toggle" class="c24-pricing-table__toggle" type="checkbox">
+          <input id="pricing_toggle_1" name="pricing_toggle" class="c24-pricing-table__toggle" value="1" type="radio">
           <label for="pricing_toggle_1">
             <div class="card c24-pricing-table__item ">
               <div class="card-body">
@@ -63,7 +63,7 @@
    <!-- price item -->
       <div class="c24-pricing-table__itemwrap">
      
-        <input id="pricing_toggle_2" name="pricing_toggle" class="c24-pricing-table__toggle" type="checkbox">
+        <input id="pricing_toggle_2" name="pricing_toggle" class="c24-pricing-table__toggle" value="2" type="radio">
         <label for="pricing_toggle_2">
           <div class="card c24-pricing-table__item highlight">
             <div class="card-body">
@@ -126,7 +126,7 @@
 
         <!-- price item -->
         <div class="c24-pricing-table__itemwrap">
-        <input id="pricing_toggle_3" name="pricing_toggle" class="c24-pricing-table__toggle" type="checkbox">
+        <input id="pricing_toggle_3" name="pricing_toggle" class="c24-pricing-table__toggle" value="3" type="radio">
         <label for="pricing_toggle_3">
           <div class="card c24-pricing-table__item">
             <div class="card-body">
