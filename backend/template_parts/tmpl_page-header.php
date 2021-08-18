@@ -13,14 +13,15 @@
                 <ul class="nav navbar-nav flex-row">
                     <li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu font-large-1"></i></a></li>
                     <li class="nav-item">
-                        <a class="navbar-brand" href="index.php"><img class="brand-logo" alt="caravan24 logo" src="assets/img/caravan24-logo.svg">caravan24</a></li>
+                        <a class="navbar-brand" href="index.php"><img class="brand-logo" alt="caravan24 logo" src="assets/img/caravan24-logo.svg"></a></li>
+                        <a class="navbar-brand" href="index.php"><img class="brand-logo-collapsed d-none" alt="caravan24 logo" src="assets/img/caravan24-logo-icon.svg"></a>
                     <li class="nav-item d-md-none"><a class="nav-link open-navbar-container" href="#"><i class="la la-gear"></i></a></li>
                 </ul>
             </div>
             <div class="navbar-container content">
                 <div class="collapse navbar-collapse" id="navbar-mobile">
                     <ul class="nav navbar-nav mr-auto float-left">
-                        <li class="nav-item d-none d-md-block"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu"></i>Menu</a></li>
+                        <li class="nav-item d-none d-md-block"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu"></i> &nbsp;Menu</a></li>
                     </ul>
                     <ul class="nav navbar-nav float-right">
                         <li class="dropdown dropdown-user nav-item my-auto"><a class="dropdown-toggle nav-link dropdown-user-link round" href="#" data-toggle="dropdown"><span class="mr-1 text-white text-bold-500"><i class="la la-support"></i>Hilfe </span></a></li>

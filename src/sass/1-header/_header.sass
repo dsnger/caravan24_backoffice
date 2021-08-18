@@ -44,14 +44,30 @@
         display: flex
         align-items: center
 
+
         .navbar-brand
             padding: 18px 0px
             margin-right: 0
 
             .brand-logo 
-                width: 100%  
+                width: 220px 
+
+            .brand-logo-collapsed
+                width: 30px  
 
             .brand-text
                 display: none
-                
+
+.menu-expanded
+    .brand-logo 
+        display: block
+    .brand-logo-collapsed
+        display: none
+    
+
+.menu-collapsed
+    .brand-logo 
+        display: none
+    .brand-logo-collapsed
+        display: block!important
     

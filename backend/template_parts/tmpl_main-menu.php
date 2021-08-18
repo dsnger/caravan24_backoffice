@@ -14,8 +14,8 @@
         <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
             <li class=" nav-item"><a href="index.php"><i class="la la-home"></i><span class="menu-title">Dashboard</span><span class="badge badge badge-primary badge-pill float-right">5</span></a>
             </li>
-            <li class=" nav-item"><a href="preistafeln.php"><i class="la la-money"></i><span class="menu-title">Preistafeln</span></a>
-            </li>
+            <li class=" nav-item"><a href="preistafeln.php"><i class="la la-money"></i><span class="menu-title">Preistafeln</span></a></li>
+            <li class=" nav-item"><a href="anzeige.php"><i class="la la-truck"></i><span class="menu-title">Anzeigen</span></a></li>
             <li class=" nav-item"><a href="#"><i class="la la-calendar"></i><span class="menu-title">Kalender</span></a>
                 <ul class="menu-content">
                     <li><a class="menu-item" href="belegung.php"><i class="la la-calendar"></i>Belegung</a>
