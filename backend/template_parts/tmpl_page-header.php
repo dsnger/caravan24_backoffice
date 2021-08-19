@@ -15,7 +15,7 @@
                     <li class="nav-item">
                         <a class="navbar-brand" href="index.php"><img class="brand-logo" alt="caravan24 logo" src="assets/img/caravan24-logo.svg"></a></li>
                         <a class="navbar-brand" href="index.php"><img class="brand-logo-collapsed d-none" alt="caravan24 logo" src="assets/img/caravan24-logo-icon.svg"></a>
-                    <li class="nav-item d-md-none"><a class="nav-link open-navbar-container" href="#"><i class="la la-gear"></i></a></li>
+                    
                 </ul>
             </div>
             <div class="navbar-container content">

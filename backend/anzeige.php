@@ -48,10 +48,10 @@ include('template_parts/tmpl_header.php');
 
             </div>
             <div class="content-body">
-                <section id="anzeige">
+                <section id="anzeige" class="modul-anzeige">
 
                     <!-- tab nav -->
-                    <ul class="nav nav-tabs">
+                    <ul class="nav nav-tabs c24-meta-tabs">
                         <li class="nav-item">
                             <a class="nav-link c24-required active" id="tab_1" data-toggle="tab" aria-controls="desc" href="#tabcontent_1" aria-expanded="true">Fahrzeugdaten<span class="c24-required-marker">*</span></a>
                         </li>
@@ -74,14 +74,14 @@ include('template_parts/tmpl_header.php');
                     <!-- / tab nav -->
 
                     <!-- tab content -->
-                    <div class="product-content tab-content pt-1">
+                    <div class="tab-content modul-anzeige__tab-content">
 
                         <div role="tabpanel" class="tab-pane active" id="tabcontent_1" aria-expanded="true" aria-labelledby="tab_1">
                             <div class="card">
                                 <div class="card-content">
                                     <div class="card-body ">
                                         
-                                    <?php include('template_parts/tmpl_anzeige_fahrzeugdaten.php'); ?>
+                                    <?php include('template_parts/tmpl_anzeige_tab_fahrzeugdaten.php'); ?>
 
                                     </div>
                                 </div>
@@ -91,6 +91,16 @@ include('template_parts/tmpl_header.php');
                         </div>
 
                         <div role="tabpanel" class="tab-pane fade" id="tabcontent_2" aria-expanded="true" aria-labelledby="tab_2">
+
+                        <div class="card">
+                                <div class="card-content">
+                                    <div class="card-body ">
+                                        
+                                    <?php include('template_parts/tmpl_anzeige_tab_standort.php'); ?>
+
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
 
@@ -108,6 +118,16 @@ include('template_parts/tmpl_header.php');
 
 
                         <div role="tabpanel" class="tab-pane fade" id="tabcontent_6" aria-expanded="true" aria-labelledby="tab_6">
+
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        
+                                    <?php include('template_parts/tmpl_anzeige_tab_ausstattung.php'); ?>
+
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
 

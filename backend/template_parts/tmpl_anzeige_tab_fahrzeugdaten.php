@@ -1,71 +1,72 @@
-<!-- anzeige farhzeugdaten -->
+<!-- anzeige fahrzeugdaten -->
 
-<form class="form form-horizontal">
+<form class="form form-horizontal needs-validation">
   <div class="form-body">
-
     <h3 class="form-section">Objekt bearbeiten</h3>
+    <!-- row -->
     <div class="row gutter-large">
       <!-- col1 -->
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-lg-6">
         <div class="form-group row">
           <label class="col-xl-3">Objekttyp<span class="text-warning"> *</span></label>
           <div class="col-xl-9 mx-auto">
-            <select class="form-control" name="fewoClass" id="SelectObjekttypAufbau">
-              <option>Bitte auswählen..</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+            <select class="form-control" name="fewoClass" id="SelectObjekttypAufbau" required>
+              <option value="">Bitte auswählen..</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
             </select>
+            <span class="invalid-feedback">Bitte ausfüllen...</span>
+            
           </div>
+        
         </div>
 
         <h4 class="form-section">Aufbau</h4>
         <div class="form-group row">
           <label class="col-xl-3">Hersteller<span class="text-warning"> *</span></label>
           <div class="col-xl-9 mx-auto">
-            <select class="form-control" name="oMarke" id="SelectHerstellerAufbau">
-              <option>Bitte auswählen..</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+            <select class="form-control" name="oMarke" id="SelectHerstellerAufbau" required>
+            <option value="">Bitte auswählen..</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
             </select>
           </div>
         </div>
 
-
         <div class="form-group row">
           <label class="col-xl-3">Modell<span class="text-warning"> *</span></label>
           <div class="col-xl-9 mx-auto">
-            <input type="text" class="form-control" name="oModell" value="">
+            <input type="text" class="form-control" name="oModell" value="" required>
+            <span class="form-tooltip"> (z.B. T448, Roadstar, Camp 681, Charisma790 L, etc.)</span>
           </div>
         </div>
 
         <div class="form-group row">
           <label class="col-xl-3">Untertitel<span class="text-warning"> *</span></label>
           <div class="col-xl-9 mx-auto">
-            <input type="text" class="form-control" name="fewoUntertitel_de" value="">
+            <input type="text" class="form-control" name="fewoUntertitel_de" value="" required>
           </div>
         </div>
-
-
-
-
 
       </div>
       <!-- /col1 -->
 
     </div>
+    <!-- /row -->
 
     <h4 class="form-section mt-4">Basisfahrzeug</h4>
 
+    <!-- row -->
     <div class="row gutter-large">
 
       <!-- col1 -->
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-lg-6">
 
         <div class="form-group row">
           <label class="col-xl-3">Hersteller</label>
@@ -84,7 +85,7 @@
         <div class="form-group row mt-3">
           <label class="col-xl-3">Name<span class="text-warning"> *</span></label>
           <div class="col-xl-9 mx-auto">
-            <input type="text" class="form-control" name="fewoName" value="">
+            <input type="text" class="form-control" name="fewoName" value="" required>
           </div>
         </div>
 
@@ -94,8 +95,6 @@
             <input type="text" class="form-control" name="oNameInt" value="">
           </div>
         </div>
-
-
 
         <div class="form-group row">
           <label class="col-xl-3">Kennzeichen</label>
@@ -121,17 +120,15 @@
         </div>
 
       </div>
-
+      <!-- /col1 -->
       <!-- col2 -->
-      <div class="col-12 col-md-6">
-
-
+      <div class="col-12 col-lg-6">
 
         <div class="form-group row">
           <label class="col-xl-3">Winterbereifung</label>
           <div class="col-xl-9 mx-auto">
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" name="oWReifen" id="oWReifen" value="true">
+              <input class="form-check-input mr-1" type="checkbox" name="oWReifen" id="oWReifen" value="true">
               <label class="form-check-label" for="oWReifen"> Während der Wintermonate mit Winterreifen ausgestattet</label>
             </div>
           </div>
@@ -150,12 +147,11 @@
             <input type="number" class="form-control " name="oSeats" min="0" max="99" value="">
           </div>
         </div>
-     
-    </div>
-    <!-- /col2 -->
 
-  </div>
-  <!-- /row -->
+      </div>
+
+    </div>
+    <!-- /row -->
 
   </div>
   <div class="form-actions">
@@ -165,5 +161,4 @@
   </div>
 </form>
 
-
-<!-- /objekt bearbeitung info und lage -->
+<!-- /anzeige fahrzeugdaten -->
