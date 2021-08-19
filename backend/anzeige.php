@@ -80,6 +80,9 @@ include('template_parts/tmpl_header.php');
                             <div class="card">
                                 <div class="card-content">
                                     <div class="card-body ">
+                                        
+                                    <?php include('template_parts/tmpl_anzeige_fahrzeugdaten.php'); ?>
+
                                     </div>
                                 </div>
                             </div>
