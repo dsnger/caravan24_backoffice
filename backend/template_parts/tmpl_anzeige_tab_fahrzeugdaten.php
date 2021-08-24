@@ -128,7 +128,7 @@
         <div class="form-group row">
           <label class="col-xl-3">Winterbereifung</label>
           <div class="col-xl-9 mx-auto">
-            <div class="form-check form-check-inline">
+            <div class="form-check form-check-inline skin skin-flat">
               <input class="form-check-input mr-1" type="checkbox" name="oWReifen" id="oWReifen" value="true">
               <label class="form-check-label" for="oWReifen"> Während der Wintermonate mit Winterreifen ausgestattet</label>
             </div>
