@@ -51,6 +51,7 @@
           <label class="col-xl-3">Untertitel<span class="text-warning"> *</span></label>
           <div class="col-xl-9 mx-auto">
             <input type="text" class="form-control" name="fewoUntertitel_de" value="" required>
+            <span class="form-tooltip"> (Beschreibung hier...)</span>
           </div>
         </div>
 
@@ -147,6 +148,35 @@
             <input type="number" class="form-control " name="oSeats" min="0" max="99" value="">
           </div>
         </div>
+
+
+        <div class="form-group row">
+        <label class="col-xl-3">Beispiel Multiselect Select2 </label>
+        <div class="col mr-auto">
+          <select class="select2 form-control" id="countrySelect" multiple="multiple">
+              <option selected="selected">United States</option>
+              <option>Canada</option>
+              <option selected="selected">United Kingdom</option>
+              <option>Japan</option>
+              <option>Australia</option>
+              <option>Germany</option>
+              <option selected="selected">India</option>
+              <option>Italy</option>
+              <option>Sweden</option>
+              <option>France</option>
+              <option>New Zealand</option>
+              <option>Switzerland</option>
+              <option>Russia</option>
+              <option>England</option>
+              <option>Norway</option>
+              <option>Greece</option>
+              <option>Philippines</option>
+              <option>Ireland</option>
+              <option>China</option>
+              <option>South Korea</option>
+          </select>
+          </div>
+      </div>
 
       </div>
 

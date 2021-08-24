@@ -102,6 +102,7 @@
 <script src="../app-assets/vendors/js/forms/extended/formatter/formatter.min.js"></script>
 <script src="../app-assets/vendors/js/forms/extended/maxlength/bootstrap-maxlength.js"></script>
 <script src="../app-assets/vendors/js/forms/icheck/icheck.min.js"></script>
+<script src="../app-assets/vendors/js/forms/select/select2.full.min.js"></script>
 
 <!-- END: Page Vendor JS-->
 
@@ -127,6 +128,7 @@
   });
 </script>
 <script>
+  $(".select2").select2();
   $('.objekt-list').DataTable({
     "language": {
       "sEmptyTable": "Keine Daten in der Tabelle vorhanden",
