@@ -92,7 +92,7 @@ include('template_parts/tmpl_header.php');
 
                         <div role="tabpanel" class="tab-pane fade" id="tabcontent_2" aria-expanded="true" aria-labelledby="tab_2">
 
-                        <div class="card">
+                            <div class="card">
                                 <div class="card-content">
                                     <div class="card-body ">
                                         
@@ -106,13 +106,43 @@ include('template_parts/tmpl_header.php');
 
                         <div role="tabpanel" class="tab-pane fade" id="tabcontent_3" aria-expanded="true" aria-labelledby="tab_3">
 
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="card-body ">
+                                        
+                                    <?php include('template_parts/tmpl_anzeige_tab_technische_daten.php'); ?>
+
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
 
                         <div role="tabpanel" class="tab-pane fade" id="tabcontent_4" aria-expanded="true" aria-labelledby="tab_4">
 
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="card-body ">
+                                        
+                                    <?php include('template_parts/tmpl_anzeige_tab_beschreibung.php'); ?>
+
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
 
                         <div role="tabpanel" class="tab-pane fade" id="tabcontent_5" aria-expanded="true" aria-labelledby="tab_5">
+
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="card-body ">
+                                        
+                                    <?php include('template_parts/tmpl_anzeige_tab_fotos.php'); ?>
+
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
 

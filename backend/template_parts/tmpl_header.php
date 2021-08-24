@@ -33,6 +33,7 @@ require_once('functions/func_layout-elements.php');
     <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/forms/icheck/icheck.css">
     <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/forms/icheck/custom.css">
     <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/forms/selects/select2.min.css">
+    
 
     <!-- page CSS-->
     <link rel="stylesheet" type="text/css" href="../app-assets/css/core/colors/palette-gradient.css">
